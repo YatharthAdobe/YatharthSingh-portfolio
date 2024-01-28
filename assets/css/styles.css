@@ -1065,6 +1065,9 @@ img {
         width: 50%;
         margin-bottom: 4px;
     }
+    .swiper-scrollbar{
+        display: none;
+    }
 }
 
 /* For medium devices */
