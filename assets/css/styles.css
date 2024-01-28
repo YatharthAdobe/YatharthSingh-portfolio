@@ -1092,6 +1092,16 @@ img {
         grid-template-columns: .6fr;
         justify-content: center;
     }
+    .contact__container{
+        display: grid;
+        grid-template-columns: repeat(1,max-width);
+        row-gap: .1rem;
+    }
+    .contact__send.button{
+        padding: 1rem;
+        width: 50%;
+        margin-bottom: 4px;
+    }
 }
 
 @media screen and (min-width:768px){
