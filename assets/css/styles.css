@@ -1052,6 +1052,19 @@ img {
     .services__modal{
         padding: 0 .5rem;
     }
+    /* .contact__information{
+        margin-right: 1.1rem;
+    } */
+    .contact__container{
+        display: grid;
+        grid-template-columns: repeat(1,max-width);
+        row-gap: .1rem;
+    }
+    .contact__send.button{
+        padding: 1rem;
+        width: 50%;
+        margin-bottom: 4px;
+    }
 }
 
 /* For medium devices */
